@@ -72,7 +72,7 @@ function handleDisconnect() {
       setTimeout(handleDisconnect, 2000); 
     } 
     else{
-		  console.log('connected to db');
+      console.log('connected to db');
 		}
   });                                     
   
