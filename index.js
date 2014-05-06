@@ -73,7 +73,7 @@ function handleDisconnect() {
     } 
     else{
       console.log('connected to db');
-		}
+    }
   });                                     
   
 	connection.on('error', function(err) {
