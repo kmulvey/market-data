@@ -57,8 +57,8 @@ request('http://ichart.finance.yahoo.com/table.csv?s=IVV&a=05&b=15&c=2000&d=04&e
       .from.string(body)
       .to.array( function(data){
         console.log(data);
-			});
-	}
+      });
+  }
 });
 
 
