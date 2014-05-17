@@ -13,7 +13,7 @@ var tick_num = 0;
 setInterval(function(){
   request('http://finance.yahoo.com/d/quotes.csv?s=GOOG&f=l1', function (error, response, body) {
   if (!error && response.statusCode == 200) {
-			tick_num++;
+    tick_num++;
 
 			var tick = parseFloat(body.trim());
 			
