@@ -15,7 +15,7 @@ setInterval(function(){
   if (!error && response.statusCode == 200) {
     tick_num++;
 
-			var tick = parseFloat(body.trim());
+    var tick = parseFloat(body.trim());
 			
 			if(tick_num % ME_PERIOD_RES == 0){
 				// size the array
