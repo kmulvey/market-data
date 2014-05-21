@@ -18,7 +18,7 @@ setInterval(function(){
     var tick = parseFloat(body.trim());
 			
     if(tick_num % ME_PERIOD_RES == 0){
-				// size the array
+    // size the array
 				if(twenty_ma_arr.length >= MA_PERIOD){
 					twenty_ma_arr.pop();
 				}
