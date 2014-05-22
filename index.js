@@ -19,7 +19,7 @@ setInterval(function(){
 			
     if(tick_num % ME_PERIOD_RES == 0){
     // size the array
-				if(twenty_ma_arr.length >= MA_PERIOD){
+    if(twenty_ma_arr.length >= MA_PERIOD){
 					twenty_ma_arr.pop();
 				}
 				// put new data on the array
