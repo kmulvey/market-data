@@ -21,7 +21,7 @@ setInterval(function(){
     // size the array
     if(twenty_ma_arr.length >= MA_PERIOD){
       twenty_ma_arr.pop();
-				}
+    }
 				// put new data on the array
 				twenty_ma_arr.unshift(tick);
 			
