@@ -23,7 +23,7 @@ setInterval(function(){
       twenty_ma_arr.pop();
     }
     // put new data on the array
-				twenty_ma_arr.unshift(tick);
+    twenty_ma_arr.unshift(tick);
 			
 				// calc the moving average
 				var sum = 0;
