@@ -28,7 +28,7 @@ setInterval(function(){
     // calc the moving average
     var sum = 0;
     for(var i=0; i<twenty_ma_arr.length; i++){
-					sum += twenty_ma_arr[i];
+      sum += twenty_ma_arr[i];
 				}
 				twenty_ma = sum/twenty_ma_arr.length;
 			}
