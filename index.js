@@ -31,7 +31,7 @@ setInterval(function(){
       sum += twenty_ma_arr[i];
     }
     twenty_ma = sum/twenty_ma_arr.length;
-			}
+  }
 	
 			if(twenty_ma_arr.length == MA_PERIOD){
 				if(tick > twenty_ma){
