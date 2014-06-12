@@ -30,7 +30,7 @@ setInterval(function(){
     for(var i=0; i<twenty_ma_arr.length; i++){
       sum += twenty_ma_arr[i];
     }
-				twenty_ma = sum/twenty_ma_arr.length;
+    twenty_ma = sum/twenty_ma_arr.length;
 			}
 	
 			if(twenty_ma_arr.length == MA_PERIOD){
