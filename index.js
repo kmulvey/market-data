@@ -36,7 +36,7 @@ setInterval(function(){
   if(twenty_ma_arr.length == MA_PERIOD){ 
     if(tick > twenty_ma){
       if(price_line_status != "above") {
-						console.log("it crossed going up ... SELL & SHORT", twenty_ma, tick);
+        console.log("it crossed going up ... SELL & SHORT", twenty_ma, tick);
 						price_line_status = "above";
 					}
 				}
