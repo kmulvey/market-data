@@ -40,7 +40,7 @@ setInterval(function(){
         price_line_status = "above";
       }
     }
-				else if(tick < twenty_ma){
+    else if(tick < twenty_ma){
 					if(price_line_status != "below") {
 						console.log("it crossed going down ... BUY & COVER: ", twenty_ma, tick);
 						price_line_status = "below";
