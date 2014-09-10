@@ -46,7 +46,7 @@ setInterval(function(){
         price_line_status = "below";
 	}
 	}
-		}
+	}
 		}
 	});
 }, 1000);
